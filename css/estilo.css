@@ -1,0 +1,41 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+/*Formatacao do Menu*/
+
+#container-menu {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+
+}
+
+.elementos-menu {
+    /* width: 150px;
+    height: 60px; */
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    gap: 10px;
+    margin-right: 8vh;
+}
+
+a {
+    font-size: 25px;
+
+
+}
+     
+
+img {
+    width: 120px;
+    height: 75px;
+}
+
+
