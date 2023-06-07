@@ -26,14 +26,14 @@
   }
   
   a {
-      font-size: 28px;
+      font-size: 26px;
   
   
   }
   
   a:hover {
       color: #957a56;
-      font-size: 31px;   
+      font-size: 29px;   
   
   }
        
@@ -133,7 +133,7 @@
       color: white;
       margin-right: 8vh;
       margin-left: 6vh;
-      font-size: 17px;
+      font-size: 15px;
       padding-bottom: 10px;
   }
   
