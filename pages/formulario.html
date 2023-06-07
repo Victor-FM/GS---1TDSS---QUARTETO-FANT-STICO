@@ -5,50 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Página de contato</title>
 </head>
 
 <body>
-    <section>
-        <div id="form">
-            <h1>Formulário</h1>
-            <form action="#" method="post">
+    <header>
 
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br>
+        <section id="container-menu">
+            <a href="index.html"><img src="/img/logo.png" alt="Logo" class="elementos-menu"></a>
+            <a class="elementos-menu" href="agricultura_sustentavel.html">Agricultura Sustentável</a>
+            <a class="elementos-menu" href="...">I.A Generativa</a>
+            <a class="elementos-menu" href="...">Modelos de Cultivo</a>
+            <a class="elementos-menu" href="...">Galeria de Fotos</a>
+            <a class="elementos-menu" href="formulario.html">Fale Conosco</a>
+        </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
+    </header>
+    <main>
+        <section id="container-form">
+            <div id="form">
+                <h1>Fale Conosco</h1>
+                <form action="#" method="post">
 
-                <label for="celular">Número de Celular:</label>
-                <input type="tel" id="celular" name="celular" required><br>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
 
-                <label for="telefone">Telefone Residencial:</label>
-                <input type="tel" id="telefone" name="telefone"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
 
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" required><br>
+                    <label for="celular">Número de Celular:</label>
+                    <input type="tel" id="celular" name="celular" required><br>
 
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" required><br>
+                    <label for="telefone">Telefone Residencial:</label>
+                    <input type="tel" id="telefone" name="telefone"><br>
 
-                <label for="estado">Estado:</label>
-                <input type="text" id="estado" name="estado" required><br>
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" required><br>
 
-                <label for="empresa">Nome da Empresa:</label>
-                <input type="text" id="empresa" name="empresa" required><br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required><br>
 
-                <label for="assunto">Assunto:</label>
-                <input type="text" id="assunto" name="assunto" required><br>
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" required><br>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea><br>
+                    <label for="empresa">Nome da Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required><br>
 
-                <input type="submit" value="Enviar">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required><br>
 
-            </form>
-        </div>
-    </section>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
