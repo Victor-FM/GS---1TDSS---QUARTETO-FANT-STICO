@@ -32,3 +32,67 @@ a:hover {
     width: 140px;
     height: 115px;
 }
+
+.banner {
+    width: 100%;
+    height: 700px;
+}
+
+#container-conteudo p {
+   font-size: 30px;
+   margin-top: 4vh;
+   margin-left: 1vh;
+}
+
+#container-conteudo h1 {
+   font-size: 45px;
+   margin-top: 2vh;
+   margin-left: 2vh;
+   color: #2b574b;
+}
+
+
+#cards {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding: 55px;
+   margin-top: 5vh;
+   
+   
+}
+
+.card {
+   box-shadow: 0 8px 10px 0 #957156;
+   transition: 0.3s;
+   height: 580px;
+   width: 420px;
+   text-align: center;
+   border-radius: 12%;
+
+}
+
+.img-card {
+   margin-top: 3vh;
+   height: 150px;
+   width: 190px;
+   border-radius: 50%;
+   border: 1px solid black;
+}
+
+.card h2 {
+   font-size: 35px;
+   margin-top: 2.5vh;
+   color: #2b574b;
+   
+}
+
+.card figcaption {
+   font-size: 25px;
+   margin-top: 5vh;
+}
+
+.card:hover {
+   box-shadow: 0 8px 25px 0 #957156;
+}
