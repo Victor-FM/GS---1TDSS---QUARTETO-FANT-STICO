@@ -32,7 +32,7 @@
 
 .container-conteudo img{
     border-radius: 10%;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     min-width: 20vw;
     max-width: 20vw;
     max-height: 35vh;
@@ -185,7 +185,7 @@
       }
     .container-conteudo img{
         border-radius: 10%;
-        padding-bottom: 1px;
+        padding-bottom: 25px;
         min-width: 40vw;
         max-width: 40vw;
         max-height: 60vh;
