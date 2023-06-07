@@ -96,3 +96,153 @@ a:hover {
 .card:hover {
    box-shadow: 0 8px 25px 0 #957156;
 }
+
+#container-rodape {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #2b574b;
+    border-top: 6px solid #957a56;
+}
+
+.elementos-rodape {
+    color: white;
+    margin-right: 6vh;
+    margin-left: 6vh;
+    font-size: 22px;
+}
+
+
+
+/* Breakpoints */
+
+
+@media (max-width: 1420px){
+    a {
+      font-size: 20px;
+      margin-right: 4vh;
+    }
+
+    .elementos-rodape{
+        margin-top: 3vh;
+      }
+      
+      .card{
+        margin-top: 10vh;
+      }
+
+}
+
+@media (max-width: 1270px){
+  a {
+    font-size: 17px;
+    margin-right: 2vh;
+  }
+
+  .elementos-rodape{
+    margin-top: 3vh;
+  }
+  
+  .card{
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 1164px){
+  a {
+    font-size: 16px;
+    
+  }
+
+  #container-menu {
+      justify-content: right;
+      gap: 0px;
+  }
+
+  #container-menu img{
+    width: 100px;
+    height: 55px;
+   
+  } 
+
+  .elementos-menu {
+      margin-right: 7vh;
+  }
+  
+  .elementos-rodape{
+    margin-top: 3vh;
+  }
+  
+  .card{
+    margin-top: 10vh;
+  }
+  
+}
+
+
+@media (max-width: 1050px){
+  a {
+      font-size: 20px;
+      margin-top: 2vh;
+      
+    }
+
+    #container-menu {
+        flex-flow: row wrap;
+        justify-content: right;
+        gap: 0px;
+    }
+    
+    #container-menu img{
+        width: 70px;
+        height: 55px;
+       
+    }
+
+    .elementos-menu {
+        margin-right: 7vh;
+    }
+    
+    .elementos-rodape{
+        margin-top: 3vh;
+    }
+
+    .card{
+        margin-top: 10vh;
+    }
+
+
+}
+
+@media (max-width: 990px){
+  a {
+      font-size: 20px;
+      margin-top: 2vh;
+      
+    }
+
+    #container-menu {
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        gap: 0px;
+    }
+
+    #container-menu img{
+        width: 70px;
+        height: 55px;
+       
+    }
+
+    .elementos-menu {
+        margin-right: 7vh;
+    }
+
+    
+    .elementos-rodape{
+        margin-top: 3vh;
+    }
+
+    .card{
+        margin-top: 10vh;
+    }
+}
